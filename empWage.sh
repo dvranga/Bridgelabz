@@ -6,7 +6,7 @@ MAX_HRS_IN_MONTH=4;
 EMP_RATE_PER_HR=20;
 NUM_WORKING_DAYS=20;
 #VARIABLES
-totalEmpHr=0;
+totalWorkHours=0;
 totalWorkingDays=0;
 function getWorkingHours() {
 	case $1 in
