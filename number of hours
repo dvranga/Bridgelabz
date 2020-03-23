@@ -1,0 +1,13 @@
+#! /bin/bash -x
+fullDay=1;
+halfDay=0;
+randomCheck=$(( $RANDOM%2 ));
+if [ $fullDay -eq $randomCheck ]
+then 
+	empHrs=8;
+elif [ $halfDay -eq $randomCheck ]
+then 
+	empHrs=4;
+else
+	empHrs=4;
+fi
